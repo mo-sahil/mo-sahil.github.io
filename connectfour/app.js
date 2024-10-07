@@ -34,6 +34,7 @@ reset.addEventListener("click", () => {
         box.innerText = "";
     });
     moveX = true;
+    moves = 0;
 });
 
 newGame.addEventListener("click", () => {
